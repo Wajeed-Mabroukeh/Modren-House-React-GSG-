@@ -9,6 +9,7 @@ import Shop from "./Pages/Shop/Shop";
 import SingleProduct from "./Pages/SingleProduct/SingleProduct";
 import MyAccount from "./Pages/MyAccount/MyAccount";
 import Checkout from "./Pages/Checkout/Checkout";
+import Skeleton from "./Skeleton";
 
 const Router = () => {
   return (
@@ -16,30 +17,40 @@ const Router = () => {
       <Routes>
         <Route path="/"
          element={
+          <Skeleton> 
           <Home/>
+          </Skeleton> 
         } />
         <Route
           path="/Shop"
           element={
+            <Skeleton> 
               <Shop />
+              </Skeleton> 
           }
         />
         <Route
           path="/SingleProduct"
           element={
+            <Skeleton> 
               <SingleProduct />
+              </Skeleton> 
           }
         />
         <Route
           path="/MyAccount"
           element={
+            <Skeleton> 
             <MyAccount/>
+            </Skeleton> 
           }
         />
         <Route
           path="/Checkout"
           element={
+            <Skeleton> 
             <Checkout/>
+            </Skeleton> 
           }
         />
       </Routes>
