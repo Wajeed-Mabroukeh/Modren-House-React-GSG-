@@ -1,10 +1,10 @@
-import './Account.css';
+import './Checkout.css';
 
-function Account() {
+function Checkout() {
   return (
     <>
     </>
   );
 }
 
-export default Account;
+export default Checkout;

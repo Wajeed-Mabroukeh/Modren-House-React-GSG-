@@ -6,8 +6,8 @@ import {
 } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Shop from "./Pages/Shop/Shop";
-import SingleProduct from "./Pages/SingleProduct/SingleProduct";
-import MyAccount from "./Pages/MyAccount/MyAccount";
+import SingleProduct from "./Pages/Single Product/SingleProduct";
+import MyAccount from "./Pages/My Account/myaccount";
 import Checkout from "./Pages/Checkout/Checkout";
 import Skeleton from "./Skeleton";
 

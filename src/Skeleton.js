@@ -1,7 +1,9 @@
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';   
-import Footer from './components/Footer';
-import Header from './components/Header';
+import Footer from './Pages/Components/Footer/Footer';
+import Header from './Pages/Components/Header/Header';
+
+
 const theme = createTheme({
     palette: {
       primary: {

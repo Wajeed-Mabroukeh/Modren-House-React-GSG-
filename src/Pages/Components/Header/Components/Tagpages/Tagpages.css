@@ -1,0 +1,25 @@
+.boxh{
+  
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 430px;
+    height: 24px;
+    left: 505px;
+    top: 38px;
+    color: #000000;
+
+}
+
+#buttonh
+{
+    color: #000000;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+   
+
+
+}
