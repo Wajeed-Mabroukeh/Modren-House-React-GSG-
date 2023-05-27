@@ -1,14 +1,10 @@
 import './Tagpages.css';
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
+import { Link } from 'react-router-dom';
 
 
 const pages = ['Home', 'Shop', 'About' ,'Contact'];
-
 
 
 function Tagpages() {
@@ -25,15 +21,11 @@ export default Tagpages;
 function ResponsiveAppBar() {
 
   return (
-          <Box className={'boxh'} >
-            {pages.map((page) => (
-              <Button id={'buttonh'}
-                key={page}
-                // onClick={}
-              >
-                {page}
-              </Button>
-            ))}
+          <Box  className={'boxh'}>
+            <Link to={'/'} id={'buttonh'}   >Home</Link>
+            <Link to={'/Shop'} id={'buttonh'} >Shop</Link>
+            <Link to={'/Shop'}  id={'buttonh'} >About</Link>
+            <Link to={'/Shop'} id={'buttonh'} >Contact</Link>
           </Box>
   );
 }

@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='header'>
     <Tagpages/>
-    {/* <Icons/> */}
+    <Icons/>
     </div>
   );
 }
