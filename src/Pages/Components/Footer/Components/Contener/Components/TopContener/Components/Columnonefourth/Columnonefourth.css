@@ -1,0 +1,46 @@
+.columnonefourthall{
+            /* Group 30 */
+
+
+            position: absolute;
+            width: 286px;
+            height: 101px;
+            left: 947.01px;
+            top: 4597px;
+}
+
+.columnonefourth{
+            /* Group 29 */
+
+
+            position: absolute;
+            width: 490px;
+            height: 24px;
+            top:59px;
+            display: flex;
+            flex-direction: row;
+            align-content: space-between;
+
+}
+
+
+.typography-Newsletter{
+            /* Newsletter */
+
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+            /* identical to box height */
+
+
+            color: #9F9F9F;
+}
+
+.textField-SUBSCRIBE{
+    left: 40px;
+    color: black;
+
+}

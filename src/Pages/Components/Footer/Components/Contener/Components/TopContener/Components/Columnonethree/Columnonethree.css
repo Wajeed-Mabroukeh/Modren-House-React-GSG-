@@ -1,0 +1,48 @@
+.columnonethreeall{
+                /* Group 27 */
+
+
+                position: absolute;
+                width: 140px;
+                height: 242px;
+                left: 735.01px;
+                top: 4595px;
+}
+
+.columnonethree{
+    /* Group 25 */
+
+
+        position: absolute;
+        width: 180px;
+        height: 163px;
+        top:59px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+     
+}
+
+
+.typography-Help{
+    /* Help */
+
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+
+        color: #9F9F9F;
+}
+
+.link-Privacy{
+    margin-bottom: 70px;
+}
+
+.link-Returns{
+    margin-bottom: 70px;
+}

@@ -1,11 +1,80 @@
-.footer{
-    /* Group 46 */
+@media screen and (max-height:5052px) {
+    .footer{
+        /* Group 46 */
+    
+        /* Home Page */
 
+            position: absolute;
+            width: 1440px;
+            height: 555px;
+            left: 0px;
+            top: 4497px;
+    
+    }
+    
+}
+
+
+@media screen and (max-height:3320pxpx) {
+    .footer{
+        /* Group 46 */
+    
+        /* Shop Page */
 
         position: absolute;
         width: 1440px;
         height: 555px;
         left: 0px;
-        top: 4497px;
+        top: 2763px;
+    
+    }
+    
+}
 
+
+@media screen and (max-height:3107px) {
+    .footer{
+        /* Group 46 */
+     
+         /* Single Product */
+
+            position: absolute;
+            width: 1440px;
+            height: 555px;
+            left: 0px;
+            top: 2552px;
+    
+    }
+    
+}
+
+@media screen and (max-height:2031px) {
+    .footer{
+        /* Group 46 */
+    
+           /* My Account Product */
+    
+           position: absolute;
+            width: 1440px;
+            height: 555px;
+            left: 0px;
+            top: 1476px;
+
+    }
+    
+}
+
+@media screen and (max-height:3100px) {
+    .footer{
+        /* Group 46 */
+    
+           /* Checkout Product */
+    
+           position: absolute;
+            width: 1440px;
+            height: 555px;
+            left: 0px;
+            top: 2545px;
+    }
+    
 }

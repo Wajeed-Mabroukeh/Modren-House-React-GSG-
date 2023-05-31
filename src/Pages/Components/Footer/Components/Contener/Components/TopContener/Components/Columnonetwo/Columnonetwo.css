@@ -1,0 +1,37 @@
+.columnonetwo{
+    /* Group 26 */
+
+
+        position: absolute;
+        width: 68px;
+        height: 312px;
+        top:55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 48px;
+}
+
+.columnonetwoall{
+    position: absolute;
+    width: 68px;
+    height: 312px;
+    left: 520.01px;
+    top: 4595px;
+
+}
+
+.typography-Links{
+    /* Help */
+
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height */
+
+
+        color: #9F9F9F;
+}
