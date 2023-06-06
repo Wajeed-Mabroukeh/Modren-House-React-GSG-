@@ -1,0 +1,12 @@
+.imgT{
+    /* Rocket single seater 1 */
+
+
+            position: absolute;
+            width: 1000px;
+            height: 1300px;
+            left: 587px;
+            top: 0px;
+            filter: drop-shadow(0px 28px 30px rgba(0, 0, 0, 0.1));
+           
+}

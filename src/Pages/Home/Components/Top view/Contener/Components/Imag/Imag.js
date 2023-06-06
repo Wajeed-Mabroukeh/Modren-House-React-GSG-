@@ -1,16 +1,13 @@
 import './Imag.css';
 import ImageList from '@mui/material/ImageList';
-import ImageListItem from '@mui/material/ImageListItem';
+
 
 const Imag = props=> {
   return (
-  //  img-container
-      <ImageList  className ={props.style} >
-     
+      <ImageList  className ={"imgT"} >
           <img   
             src={props.img}
           />
-     
     </ImageList>
     )
   }
