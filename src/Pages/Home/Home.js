@@ -1,11 +1,11 @@
 import './Home.css';
-
+import Topview from "./Components/Top view/Topview"
 
 
 function Home() {
   return (
     <div className='home'>
-       <p>hhh</p>
+       <Topview/>
     </div>
   );
 }
