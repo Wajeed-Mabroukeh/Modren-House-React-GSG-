@@ -20,3 +20,33 @@
         color: #000000;
 
 }
+@media screen and (max-width:1280px) {
+    #subtitle{
+        /* Shop Now */
+    
+    
+            position: absolute;
+            width: 121px;
+            height: 36px;
+            left: 156px;
+            top: 655px;
+    
+    
+    }
+}
+
+@media screen and (max-width:750px) {
+    #subtitle{
+        /* Shop Now */
+    
+    
+            position: absolute;
+            width: 121px;
+            height: 36px;
+            left: 106px;
+            top: 905px;
+
+    
+    }
+    
+}

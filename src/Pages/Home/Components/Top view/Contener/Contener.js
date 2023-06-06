@@ -8,11 +8,11 @@ import SubtitleT from "./Components/Subtitle/Subtitle";
 
 const Contener = props=> {
     return (
-        <>
+        <div className="contenerB">
         <ImgT img ={props.img} />
         <TitleT titlec ={props.titlec}/>
         <SubtitleT subtitleC ={props.subtitlec} />
-        </>
+        </div>
     )
 }
 

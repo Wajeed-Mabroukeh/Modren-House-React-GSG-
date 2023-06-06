@@ -7,3 +7,29 @@
     left: 1093px;
     top: 36px;
 }
+
+@media screen and (max-width:1280px) {
+    .icons{
+        display: flex;
+        flex-direction: row;
+        width: 430px;
+        height: 24px;
+        left: 905px;
+        top: 38px;
+    }
+    
+}
+
+@media screen and (max-width:750px) {
+    .icons{
+        display: flex;
+        flex-direction: row;
+        width: 430px;
+        height: 24px;
+        left: 355px;
+        top: 38px;
+    
+    }
+    
+}
+

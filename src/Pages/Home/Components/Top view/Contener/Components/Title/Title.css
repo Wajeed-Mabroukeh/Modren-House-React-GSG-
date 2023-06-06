@@ -15,3 +15,28 @@
 
                 color: #000000;
 }
+
+@media screen and (max-width:1280px) {
+    #titleTT{
+        position: absolute;
+        width: 440px;
+        height: 92px;
+        left: 152px;
+        top: 428px;
+        
+       
+    }
+}
+
+@media screen and (max-width:750px) {
+    #titleTT{
+        
+        position: absolute;
+        width: 440px;
+        height: 92px;
+        left: 102px;
+        top: 728px;
+       
+    }
+    
+}
