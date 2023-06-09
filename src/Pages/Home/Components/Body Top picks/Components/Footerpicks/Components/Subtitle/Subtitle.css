@@ -1,0 +1,41 @@
+#subtitleBF{
+/* View More */
+
+
+            position: absolute;
+            width: 104px;
+            height: 30px;
+            left: 667px;
+            top: 2340px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* identical to box height */
+
+
+            color: #000000;
+
+}
+
+@media screen and (max-width:1280px) {
+    #subtitleBF{
+            left: 667px;
+            top: 2680px;
+
+    }
+ }  
+
+ @media screen and (max-width:750px) {
+    #subtitleBF{
+        
+        left: 637px;
+        top: 3940px;
+
+    }
+ }  
+
+
+
