@@ -25,7 +25,7 @@ function ResponsiveAppBar() {
             <Link to={'/'} id={'buttonh'}   >Home</Link>
             <Link to={'/Shop'} id={'buttonh'} >Shop</Link>
             <Link to={'/Shop'}  id={'buttonh'} >About</Link>
-            <Link to={'/Shop'} id={'buttonh'} >Contact</Link>
+            <Link to={'/Contact'} id={'buttonh'} >Contact</Link>
           </Box>
   );
 }

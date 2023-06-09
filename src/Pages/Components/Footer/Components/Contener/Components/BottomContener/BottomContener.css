@@ -1,0 +1,45 @@
+.lins{
+    /* Line 4 */
+
+
+        position: absolute;
+        width: 1240.01px;
+        height: 0px;
+        left: 100px;
+        top: 4655px;
+
+        border: 1px solid #D9D9D9;
+}
+
+.bottomContener{
+    /* Group 44 */
+
+
+        position: absolute;
+        width: 1240.01px;
+        height: 59px;
+        left: 100px;
+        top: 4955px;
+}
+
+.typography-footer-text{
+    /* 2022 Meubel House. All rights reverved */
+
+
+            position: absolute;
+            width: 306px;
+            height: 24px;
+            left: 102.01px;
+            top: 4690px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            padding-bottom: 30px;
+            /* identical to box height */
+
+
+            color: #000000;
+}

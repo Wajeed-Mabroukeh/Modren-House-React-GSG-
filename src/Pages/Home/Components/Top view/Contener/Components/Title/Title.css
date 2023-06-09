@@ -1,0 +1,42 @@
+#titleTT{
+    /* Rocket single seater */
+
+                position: absolute;
+                width: 440px;
+                height: 192px;
+                left: 202px;
+                top: 428px;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 64px;
+                line-height: 96px;
+
+                color: #000000;
+}
+
+@media screen and (max-width:1280px) {
+    #titleTT{
+        position: absolute;
+        width: 440px;
+        height: 92px;
+        left: 152px;
+        top: 428px;
+        
+       
+    }
+}
+
+@media screen and (max-width:750px) {
+    #titleTT{
+        
+        position: absolute;
+        width: 440px;
+        height: 92px;
+        left: 102px;
+        top: 728px;
+       
+    }
+    
+}
