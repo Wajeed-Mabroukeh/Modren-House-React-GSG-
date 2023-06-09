@@ -2,9 +2,10 @@ import './Shop.css';
 
 function Shop() {
   return (
-    <>
-    <p>hhh</p>
-    </>
+    <div className='shop'>
+       <p>sss</p>
+    </div>
+    
   );
 }
 

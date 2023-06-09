@@ -10,6 +10,7 @@ import SingleProduct from "./Pages/Single Product/SingleProduct";
 import MyAccount from "./Pages/My Account/myaccount";
 import Checkout from "./Pages/Checkout/Checkout";
 import Skeleton from "./Skeleton";
+import Contact from "./Pages/Contact/Contact";
 
 const Router = () => {
   return (
@@ -50,6 +51,14 @@ const Router = () => {
           element={
             <Skeleton> 
             <Checkout/>
+            </Skeleton> 
+          }
+        />
+        <Route
+          path="/Contact"
+          element={
+            <Skeleton> 
+            <Contact/>
             </Skeleton> 
           }
         />

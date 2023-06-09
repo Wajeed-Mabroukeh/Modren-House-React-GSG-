@@ -1,0 +1,43 @@
+#titleBT{
+            /* Side table */
+
+
+            position: relative;
+            width: 182px;
+            height: 54px;
+            right: 200px;
+            top: -400px;
+          
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            /* identical to box height */
+}
+
+/* @media screen and (max-width:1280px) {
+    #titleTT{
+        position: absolute;
+        width: 440px;
+        height: 92px;
+        left: 152px;
+        top: 428px;
+        
+       
+    }
+}
+
+@media screen and (max-width:750px) {
+    #titleTT{
+        
+        position: absolute;
+        width: 440px;
+        height: 92px;
+        left: 102px;
+        top: 728px;
+       
+    }
+    
+} */
