@@ -1,0 +1,47 @@
+#buttonA{
+
+        position: absolute;
+        width: 106px;
+        height: 30px;
+        left: 50px;
+        top: 335px;
+
+        padding: 17px 74px;
+        border: 1px solid #000000;
+
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-decoration-line: none;
+        /* identical to box height */
+
+
+        color: #000000;
+
+}
+
+
+@media screen and (max-width:1280px) {
+    #buttonA{
+        position: absolute;
+        width: 106px;
+        height: 30px;
+          left: -580px;
+          top:  1050px;
+
+       
+    }
+ }  
+ @media screen and (max-width:750px) {
+    #buttonA{
+        position: absolute;
+        width: 106px;
+        height: 30px;
+
+               top:  1050px;
+               left: -830px;
+
+    }
+ }  

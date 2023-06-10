@@ -1,0 +1,52 @@
+.contenerBA{
+    /* Group 8 */
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;    
+     
+ 
+          
+}
+
+
+.rightSideBA{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    /* Group 22 */
+
+
+    position: absolute;
+    width: 331px;
+    height: 205px;
+    left: 1012px;
+    top: 0;
+
+    margin-left: 165px;
+   
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .contenerBA{
+
+        display: flex;
+        flex-direction: column;
+        
+
+    } 
+ }  
+
+ @media screen and (max-width:750px) {
+    .contenerBA{
+     
+        display: flex;
+        flex-direction: column;
+
+    
+    } 
+    
+ }
+
