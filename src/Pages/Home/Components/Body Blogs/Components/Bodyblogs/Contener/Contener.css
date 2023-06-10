@@ -1,0 +1,15 @@
+.contenerBB{
+    /* Group 8 */
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+     
+ 
+          
+}
+
+.allicon{
+    display: flex;
+    flex-direction: row;
+}

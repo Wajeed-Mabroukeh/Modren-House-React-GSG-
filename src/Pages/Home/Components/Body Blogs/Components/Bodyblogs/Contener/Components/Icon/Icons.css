@@ -1,0 +1,18 @@
+.icon{
+    position: relative;
+    width: 150px;
+    height: 40px;
+    left: 00px;
+    top: 30px;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 0;
+}
+
+#titleBB
+{
+    top: -4px;
+    left: 10px;
+}

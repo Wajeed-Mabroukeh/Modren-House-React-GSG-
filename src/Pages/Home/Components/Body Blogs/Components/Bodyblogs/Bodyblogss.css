@@ -1,0 +1,45 @@
+.bodyblogss{
+     display: flex;
+     flex-direction: row;
+     position: absolute;
+     width: 1240px;
+     height: 555px;
+     left: 100px;
+     top: 3419px;
+}
+
+
+@media screen and (max-width:1280px) {
+     .bodyblogss{
+
+         /* display: flex;
+         flex-direction: column;
+         align-items: center; */
+        
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          grid-auto-rows: 400px;
+ 
+        left: 400px;
+        top: 1874px;
+        width: 187px;
+         height: 397px;
+     
+
+     } 
+  }  
+ 
+  @media screen and (max-width:750px) {
+     .bodyblogss{
+      
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          left: 650px;
+          top: 1874px;
+          width: 187px;
+          height: 397px;
+     
+     } 
+     
+  } 
