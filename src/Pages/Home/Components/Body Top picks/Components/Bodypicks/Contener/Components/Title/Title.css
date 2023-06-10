@@ -1,0 +1,35 @@
+#titleBP{
+  
+
+            position: relative;
+            width: 194px;
+            height: 24px;
+            left: -30px;
+            top:  -50px;
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+}
+
+@media screen and (max-width:1280px) {
+    #titleBP{
+         position: relative;
+         width: 194px;
+         height: 24px;
+         left: -30px;
+         top:  -85px;
+    }
+ }  
+ @media screen and (max-width:750px) {
+    #titleBP{
+         position: relative;
+         width: 194px;
+         height: 24px;
+         left: -30px;
+         top:  -205px;
+    }
+ }  
