@@ -1,0 +1,10 @@
+.contenerBv{
+    /* Group 8 */
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+            width: 1605px;
+            height: 2562px;
+            gap: 1em;
+}

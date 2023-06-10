@@ -1,0 +1,40 @@
+.Bodyview{
+    /* Group 10 */
+           display: flex;
+           flex-direction: row;
+            position: absolute;
+            width: 1440px;
+            height: 672px;
+            left: 0px;
+            top: 906px;
+
+            margin: 100px 105px ;
+            gap: 1em;
+        }
+
+        @media screen and (max-width:1280px) {
+            .Bodyview{
+  
+                display: flex;
+                flex-direction: column;
+               left: -350px;
+               top: 906px;
+               width: 1200px;
+               height: 100px;
+
+            } 
+         }  
+        
+         @media screen and (max-width:750px) {
+            .Bodyview{
+             
+                 display: flex;
+                 flex-direction: column;
+                 left: -500px;
+                 top: 906px;
+                 width: 1200px;
+                 height: 100px;
+            
+            } 
+            
+         } 
