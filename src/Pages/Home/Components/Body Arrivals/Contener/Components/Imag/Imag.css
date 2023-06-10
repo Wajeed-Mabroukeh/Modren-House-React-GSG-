@@ -1,0 +1,32 @@
+.imgBA{
+                position: absolute;
+                width: 983px;
+                height: 799px;
+                left: -36px;
+                top: 0px;
+                 
+}
+
+
+@media screen and (max-width:1280px) {
+    .imgBA{
+
+        width: 983px;
+        height: 799px;
+        left: 250px;
+        top: 0px;
+
+    } 
+ }  
+
+ @media screen and (max-width:750px) {
+    .imgBA{
+     
+        width: 983px;
+        height: 799px;
+        left: 100px;
+        top: 0px;
+    
+    } 
+    
+ } 

@@ -1,0 +1,40 @@
+.bodyarrivals{
+
+        position: absolute;
+        width: 1670px;
+        height: 799px;
+        left: -36px;
+        top: 2389px;
+        background: #FFF9E6
+}
+
+
+
+
+@media screen and (max-width:1280px) {
+        .bodyarrivals{
+    
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            width: 1476px;
+            height: 1200px;
+            left: -36px;
+            top: 3689px;
+    
+        } 
+     }  
+    
+     @media screen and (max-width:750px) {
+        .bodyarrivals{
+         
+             display: flex;
+             flex-direction: column;
+             width: 1476px;
+             height: 1200px;
+             left: -36px;
+             top: 5000px;
+        
+        } 
+        
+     } 
