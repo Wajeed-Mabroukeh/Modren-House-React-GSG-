@@ -5,8 +5,8 @@
         position: absolute;
         width: 1240.01px;
         height: 0px;
-        left: 100px;
-        top: 4655px;
+        left: 0px;
+        top: 190px;
 
         border: 1px solid #D9D9D9;
 }
@@ -19,7 +19,7 @@
         width: 1240.01px;
         height: 59px;
         left: 100px;
-        top: 4955px;
+        top: 200px;
 }
 
 .typography-footer-text{
@@ -30,7 +30,7 @@
             width: 306px;
             height: 24px;
             left: 102.01px;
-            top: 4690px;
+            top: 200px;
 
             font-family: 'Poppins';
             font-style: normal;
@@ -43,3 +43,32 @@
 
             color: #000000;
 }
+
+
+@media screen and (max-width:1280px) {
+    .bottomContener{
+        /* Group 32 */
+    
+        
+        position: absolute;
+        width: 1240.01px;
+        top: 3000px;
+        left: -50px;
+       
+    }
+    
+ }  
+
+ @media screen and (max-width:750px) {
+    .bottomContener{
+        /* Group 32 */
+    
+    
+        top: 4560px;
+        left: -50px;
+     
+       
+    }
+    
+    
+ } 

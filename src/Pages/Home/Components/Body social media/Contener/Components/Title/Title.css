@@ -1,0 +1,40 @@
+#titleBS{
+  
+   position: absolute;
+   width: 454px;
+   height: 90px;
+   left: -650px;
+   top: 4200px;
+   
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 90px;
+   /* identical to box height */
+   
+   
+   color: #000000;
+}
+
+@media screen and (max-width:1280px) {
+    #titleBS{
+      width: 1640px;
+      height: 450px;
+      left: -670px;
+      top: 7000px;
+
+       
+    }
+ }  
+ @media screen and (max-width:750px) {
+    #titleBS{
+      position: absolute;
+      width: 400px;
+      height: 55px;
+      left: -940px;
+      top: 8200px;
+     
+
+    }
+ }  

@@ -1,0 +1,50 @@
+#buttonS{
+
+
+        position: absolute;
+        left: -580px;
+        top: 4350px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #000000;
+        text-decoration-line: none;
+        width: 255px;
+        height: 64px;
+        background: #e6dbdb;
+        border-radius: 50px;
+        box-sizing: border-box;
+        text-align: center;
+        padding: 17px 82px;
+
+
+
+}
+
+
+
+@media screen and (max-width:1280px) {
+    #buttonS{
+        text-decoration-line: none;
+        width: 255px;
+        height: 64px;
+        left: -610px;
+        top: 7140px;
+
+       
+    }
+ }  
+ @media screen and (max-width:750px) {
+    #buttonS{
+        position: absolute;
+        width: 255px;
+        height: 55px;
+        left: -890px;
+        top: 8350px;
+        padding: 12px 82px;
+    
+
+    }
+ }  

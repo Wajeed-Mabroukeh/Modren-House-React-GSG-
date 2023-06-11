@@ -1,0 +1,33 @@
+.imgBS{
+
+    position: absolute;
+    width: 1640px;
+    height: 450px;
+    left: 50px;
+    top: 4100px;
+
+}
+
+
+@media screen and (max-width:1280px) {
+    .imgBS{
+
+        width: 1540px;
+        height: 450px;
+        left: 0px;
+        top: 6900px;
+
+    } 
+ }  
+
+ @media screen and (max-width:750px) {
+    .imgBS{
+     
+        width: 1640px;
+        height: 799px;
+        left: 0px;
+        top: 8100px;
+    
+    } 
+    
+ } 

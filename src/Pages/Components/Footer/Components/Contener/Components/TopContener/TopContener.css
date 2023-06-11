@@ -5,6 +5,39 @@
     position: absolute;
     width: 1131px;
     height: 312px;
-    left: 102.01px;
-    top: 4595px;
+   
 }
+
+
+
+@media screen and (max-width:1280px) {
+    .topContener{
+        /* Group 32 */
+    
+    
+        position: absolute;
+        width: 1131px;
+       
+        top: 2800px;
+        left: -50px;
+       
+    }
+    
+ }  
+
+ @media screen and (max-width:750px) {
+    .topContener{
+        /* Group 32 */
+    
+    
+        
+        position: absolute;
+        width: 1131px;
+       
+        top: 4000px;
+        left: -50px;
+       
+    }
+    
+    
+ } 

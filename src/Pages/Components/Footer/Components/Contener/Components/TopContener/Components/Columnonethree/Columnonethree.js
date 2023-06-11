@@ -13,7 +13,7 @@ function Columnonethree() {
          <Box className={'columnonethree'}>
             <Link to={'/'} id={'buttonh'}  className={'link-Privacy'} >Privacy Policies</Link>
             <Link to={'/'} id={'buttonh'} className={'link-Returns'} >Returns</Link>
-            <Link to={'/'}  id={'buttonh'} >Privacy Policies</Link>
+            <Link to={'/'}  id={'buttonh'} className={'link-Pr'} >Privacy Policies</Link>
           </Box>
           </Box>
     );

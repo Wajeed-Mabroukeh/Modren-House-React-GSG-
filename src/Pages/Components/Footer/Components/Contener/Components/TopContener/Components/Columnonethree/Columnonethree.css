@@ -4,9 +4,9 @@
 
                 position: absolute;
                 width: 140px;
-                height: 242px;
+                height: 400px;
                 left: 735.01px;
-                top: 4595px;
+                /* top: 4595px; */
 }
 
 .columnonethree{
@@ -14,7 +14,7 @@
 
 
         position: absolute;
-        width: 180px;
+        width: 300px;
         height: 163px;
         top:59px;
         display: flex;
@@ -46,3 +46,43 @@
 .link-Returns{
     margin-bottom: 70px;
 }
+
+
+@media screen and (max-width:1280px) {
+    .link-Privacy{
+        position: relative;
+        width: 300px;
+        height: 400px;
+       
+    }
+    
+    .link-Returns{
+        position: relative;
+        top: 20px;
+    }
+
+    .link-Pr{
+        position: relative;
+        top: 50px;
+    }
+    
+    
+ }  
+
+ @media screen and (max-width:750px) {
+    .columnonethreeall{
+        /* Group 27 */
+
+
+        
+        position: absolute;
+        width: 1131px;
+       
+        top: 400px;
+        left: 520px;
+}
+
+    
+    
+    
+ }
