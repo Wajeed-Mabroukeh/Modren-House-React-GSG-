@@ -5,8 +5,7 @@
         position: absolute;
         width: 285px;
         height: 72px;
-        left: 102.01px;
-        top: 4703px;
+        
 
         font-family: 'Poppins';
         font-style: normal;
@@ -16,3 +15,23 @@
 
         color: #9F9F9F;
 }
+
+
+
+@media screen and (max-width:750px) {
+    .columnone{
+        /* Group 27 */
+
+
+        
+        position: absolute;
+        width: 131px;
+        left: 250px;
+       
+        
+}
+
+    
+    
+    
+ }

@@ -1,0 +1,38 @@
+.bodyblogss{
+     display: flex;
+     flex-direction: row;
+     position: absolute;
+     width: 1240px;
+     height: 555px;
+     left: 100px;
+     top: 3419px;
+}
+
+
+@media screen and (max-width:1280px) {
+     .bodyblogss{
+
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          width: 1240px;
+          height: 3679px;
+          left: 60px;
+          top: 5100px;
+     }
+}
+ 
+  @media screen and (max-width:750px) {
+     .bodyblogss{
+      
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          width: 1240px;
+          height: 3679px;
+          left: -170px;
+          top: 6380px;
+     
+     } 
+     
+  } 

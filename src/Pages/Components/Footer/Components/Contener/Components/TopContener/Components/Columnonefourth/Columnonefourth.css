@@ -6,7 +6,7 @@
             width: 286px;
             height: 101px;
             left: 947.01px;
-            top: 4597px;
+            /* top: 4597px; */
 }
 
 .columnonefourth{
@@ -44,3 +44,13 @@
     color: black;
 
 }
+
+
+@media screen and (max-width:750px) {
+    .columnonefourthall{
+        /* Group 27 */
+        top:535px;
+        left: 70px;
+       
+        
+}}
