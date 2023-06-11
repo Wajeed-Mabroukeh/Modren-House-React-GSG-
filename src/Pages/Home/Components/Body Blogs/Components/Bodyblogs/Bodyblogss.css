@@ -12,33 +12,26 @@
 @media screen and (max-width:1280px) {
      .bodyblogss{
 
-         /* display: flex;
-         flex-direction: column;
-         align-items: center; */
-        
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          grid-auto-rows: 400px;
- 
-        left: 400px;
-        top: 1874px;
-        width: 187px;
-         height: 397px;
-     
-
-     } 
-  }  
+          display: flex;
+          flex-direction: column;
+          position: relative;
+          width: 1240px;
+          height: 3679px;
+          left: 60px;
+          top: 5100px;
+     }
+}
  
   @media screen and (max-width:750px) {
      .bodyblogss{
       
           display: flex;
           flex-direction: column;
-          align-items: center;
-          left: 650px;
-          top: 1874px;
-          width: 187px;
-          height: 397px;
+          position: relative;
+          width: 1240px;
+          height: 3679px;
+          left: -170px;
+          top: 6380px;
      
      } 
      

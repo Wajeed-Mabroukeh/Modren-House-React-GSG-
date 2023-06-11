@@ -21,8 +21,8 @@
 
 @media screen and (max-width:1280px) {
     #subtitleBBF{
-            left: 667px;
-            top: 2680px;
+        left: 600px;
+        top: 6800px;
 
     }
  }  
@@ -30,8 +30,8 @@
  @media screen and (max-width:750px) {
     #subtitleBBF{
         
-        left: 637px;
-        top: 3940px;
+        left: 370px;
+        top: 8040px;
 
     }
  }  

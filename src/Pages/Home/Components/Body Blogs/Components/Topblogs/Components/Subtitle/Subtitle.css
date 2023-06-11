@@ -21,3 +21,27 @@
 }
 
 
+@media screen and (max-width:1280px) {
+        #subtitleBTB{
+    
+                position: absolute;
+                width: 479px;
+                height: 24px;
+                left: 470px;
+                top: 5030px;
+        
+    
+        } 
+     }  
+    
+     @media screen and (max-width:750px) {
+        #subtitleBTB{
+         
+                position: absolute;
+                width: 479px;
+                height: 24px;
+                left: 240px;
+                top: 6330px;
+        } 
+        
+     } 

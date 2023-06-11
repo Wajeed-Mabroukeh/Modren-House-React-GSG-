@@ -11,3 +11,29 @@
             font-size: 36px;
             line-height: 54px;
 }
+
+@media screen and (max-width:1280px) {
+    #titleBTB{
+
+        position: absolute;
+        width: 174px;
+        height: 54px;
+        left: 600px;
+        top: 4963px;
+    
+
+    } 
+ }  
+
+ @media screen and (max-width:750px) {
+    #titleBTB{
+     
+        position: absolute;
+        width: 174px;
+        height: 54px;
+        left: 370px;
+        top: 6263px;
+    
+    } 
+    
+ } 
