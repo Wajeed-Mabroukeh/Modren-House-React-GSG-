@@ -1,15 +1,15 @@
 #subtitleBA{
 
                 position: absolute;
-                width: 331px;
+                width: 400px;
                 height: 72px;
-                left: 40px;
-                top:  253px;
+                left: 60px;
+                top:  250px;
  
                 font-family: 'Poppins';
                 font-style: normal;
                 font-weight: 700;
-                font-size: 48px;
+                font-size: 40px;
                 line-height: 72px;
                 text-decoration-line: none;
                 /* identical to box height */

@@ -1,0 +1,35 @@
+.imgAcc{
+                /* Group 78 */
+
+
+                position: absolute;
+                width: 1450px;
+                height: 380px;
+                left: 0px;
+                top: 0px;
+}
+
+
+@media screen and (max-width:1280px) {
+    .imgAcc{
+
+        position: absolute;
+        width: 100rem;
+        height: 24rem;
+        left: 0px;
+        top: 0px;
+    } 
+ }  
+
+ @media screen and (max-width:750px) {
+    .imgAcc{
+     
+        position: absolute;
+        width: 100rem;
+        height: 24rem;
+        left: -250px;
+        top: 0px;
+    
+    } 
+    
+ } 

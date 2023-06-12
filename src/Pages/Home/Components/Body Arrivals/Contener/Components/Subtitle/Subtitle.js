@@ -1,9 +1,12 @@
 import './Subtitle.css';
-import { Link } from 'react-router-dom';
+import { Typography } from "@mui/material";
 
 const Subtitle = props=> {
   return (
-         <Link to={'/Shop'} id={'subtitleBA'} > {props.subtitleC}</Link>
+    <Typography variant="p" component="p" id={"subtitleBA"}>
+        {props.subtitleC}
+        </Typography>
+       
   );
 }
 
