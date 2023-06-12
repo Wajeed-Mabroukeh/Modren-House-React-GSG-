@@ -23,7 +23,7 @@ const Skeleton = props =>{
         {/* Header Here */}
         <Header /> 
             {props.children}
-        <Footer /> 
+        <Footer name ={ props.name} /> 
         {/* Footer Here */}
       </ThemeProvider>
     </div>

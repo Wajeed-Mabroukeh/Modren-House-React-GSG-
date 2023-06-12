@@ -1,0 +1,38 @@
+.contenerAcc{
+    /* Group 8 */
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;    
+            width: 1605px;
+            gap: 1em;
+}
+
+
+@media screen and (max-width:1280px) {
+    .contenerAcc{
+        /* Group 8 */
+    
+                display: flex;
+                flex-direction: column;
+
+             
+                gap: 1em;
+               margin-left: -10rem;
+                margin-bottom: 70px;
+    }
+ }  
+
+ @media screen and (max-width:750px) {
+    .contenerAcc{
+        /* Group 8 */
+    
+                display: flex;
+                flex-direction: column;
+
+             
+                gap: 1em;
+               margin-left: -24rem;
+                margin-bottom: 70px;
+    }
+ }  

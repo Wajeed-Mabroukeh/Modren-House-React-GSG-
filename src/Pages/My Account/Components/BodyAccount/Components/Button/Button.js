@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Button = props => {
     return (
-        <div className="boxB">
-            <Link to={'/Shop'} id={'buttonS'} > {props.buttonT}</Link>
-            </div>
+            <Link to={'/'} id={'buttonAcc'} > {props.buttonT}</Link>
     );
   }
   

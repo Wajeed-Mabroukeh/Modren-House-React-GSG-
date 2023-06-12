@@ -3,11 +3,11 @@ import TitleT from "./Components/Title/Title";
 import SubtitleT from "./Components/Subtitle/Subtitle";
 import ButtonT from "./Components/Button/Button";
 import TextFiled from "./Components/TextFiled/Textfled"
-
+import Checkbox from "./Components/Checkbox/Checkbox"
 
 function Bodyaccount() {
     return (
-      <div className='bodyaccount'>
+      <nav className='bodyaccount'>
         <nav className="login">
         <TitleT titlec ="Log In"/>
       
@@ -18,26 +18,36 @@ function Bodyaccount() {
         <nav className="password">
         <TextFiled txtF="Password"/>
         </nav>
-        <nav >
 
-        <SubtitleT subtitleC ="Remember me" />
+        
+        <Checkbox/>
+        <nav className="subR">
+        <SubtitleT subtitleC ="Remember me"  />
 
         </nav>
-            <nav className="">
+          
         <ButtonT buttonT ="Log In" />
+        <nav className="subP">
         <SubtitleT subtitleC ="Lost Your Password?" />
             </nav>
 
         </nav>
 
-        <nav  className="register">
+       <nav className="register">
         <TitleT titlec ="Register"/>
-        <SubtitleT subtitleC ="Email address" />
+        <nav  className="email">
         <TextFiled txtF="Email address"/>
-        <SubtitleT subtitleC ="A link to set a new password will be sent to your email </br> address. </br> Your personal data will be used to support your </br> experience throughout this website, to manage access </br> to your account, and for other purposes described in our </br> <span> privacy policy.</span>" />
-        <ButtonT buttonT ="" />
         </nav>
-      </div>
+        <nav  className="supRP">
+        <SubtitleT subtitleC = "A link to set a new password will be sent to your email address."/>
+       </nav>
+        <nav  className="supRPS">
+        <SubtitleT  subtitleC= "Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our  privacy policy." />
+        </nav>
+        <ButtonT buttonT ="Register" />
+       
+        </nav>
+      </nav>
     );
   }
   

@@ -1,87 +1,55 @@
+ .homeF{
+    position: absolute;
+    width: 1240.01px;
+  
+    top:4800px;
+    left: 80px;
+ }
+
+
+ .myAccountF{
+    position: absolute;
+    width: 1240.01px;
+
+    top:1600px;
+    left: 80px;
+ }
 
 
 
-@media screen and (max-height:5052px) {
-       
-/* Checkout Product */
-        .contener{
-            /* Group 45 */
-            
-                position: relative;
-                width: 1240.01px;
-                height: 100px;
-                top:-350px;
-                left: 80px;
-            
-            }
-            
+ @media screen and (max-width:1280px) {
+    .myAccountF{
+        position: absolute;
+        width: 1240.01px;
     
-}
-
-
-@media screen and (max-height:3320px) {
-    .contener{
-        /* Group 45 */
-        
-            position: relative;
-            width: 1240.01px;
-            height: 100px;
-            top:-350px;
-            left: 80px;
-        
-        }
+        top: -55rem;
+        left: 80px;
+     }
     
-}
+     .homeF{
+        position: absolute;
+        width: 1240.01px;
+        top:300rem;
+        left: 80px;
+     }
+ }
 
-
-@media screen and (max-height:3100px) {
-     
-         /* Single Product */
-
-   
-         .contener{
-            /* Group 45 */
-            
-                position: relative;
-                width: 1240.01px;
-                height: 50px;
-                top:-350px;
-                left: 80px;
-            
-            }
+ @media screen and (max-width:750px) {
+    .myAccountF{
+        position: absolute;
+        width: 1240.01px;
     
-}
+        top: -130rem;
+        left: 80px;
+     }
 
-@media screen and (max-height:2031px) {
+     .homeF{
+        position: absolute;
+        width: 1240.01px;
     
-           /* My Account Product */
-           .contener{
-            /* Group 45 */
-            
-                position: relative;
-                width: 1240.01px;
-                height: 100px;
-                top:-350px;
-                left: 80px;
-            
-            }
-    
-}
+        top: 300rem;
+        left: 80px;
+     }
 
-@media screen and (max-height:3100px) {
-    
-           
-            /* Home Page */
-           .contener{
-            /* Group 45 */
-            
-                position: absolute;
-                width: 1240.01px;
-              
-                top:4800px;
-                left: 80px;
-            
-            }
-    
-}
 
+ }

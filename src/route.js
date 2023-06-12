@@ -18,14 +18,14 @@ const Router = () => {
       <Routes>
         <Route path="/"
          element={
-          <Skeleton> 
+          <Skeleton name="homeF"> 
           <Home/>
           </Skeleton> 
         } />
         <Route
           path="/Shop"
           element={
-            <Skeleton> 
+            <Skeleton name="shopF"> 
               <Shop />
               </Skeleton> 
           }
@@ -33,7 +33,7 @@ const Router = () => {
         <Route
           path="/SingleProduct"
           element={
-            <Skeleton> 
+            <Skeleton name="singleProductF" > 
               <SingleProduct />
               </Skeleton> 
           }
@@ -41,7 +41,7 @@ const Router = () => {
         <Route
           path="/MyAccount"
           element={
-            <Skeleton> 
+            <Skeleton name="myAccountF"> 
             <MyAccount/>
             </Skeleton> 
           }
@@ -49,7 +49,7 @@ const Router = () => {
         <Route
           path="/Checkout"
           element={
-            <Skeleton> 
+            <Skeleton name="checkoutF"> 
             <Checkout/>
             </Skeleton> 
           }
@@ -57,7 +57,7 @@ const Router = () => {
         <Route
           path="/Contact"
           element={
-            <Skeleton> 
+            <Skeleton name="contactF"> 
             <Contact/>
             </Skeleton> 
           }

@@ -4,30 +4,29 @@
 
 
                 position: absolute;
-                width: 224px;
+                width: 300px;
                 height: 24px;
                 left: 175px;
                 top: 604px;
-
+               
+                
                 font-family: 'Poppins';
                 font-style: normal;
-                font-weight: 500;
+                font-weight: 300;
                 font-size: 16px;
                 line-height: 24px;
-                /* identical to box height */
-
-
+                text-align: justify;
+                
                 color: #000000;
-
 
 }
 
 @media screen and (max-width:1280px) {
     #subtitleBAcc{
-        width: 1640px;
+        /* width: 1640px;
         height: 450px;
         left: -610px;
-        top: 7090px;
+        top: 7090px; */
   
     }
  }  
@@ -35,11 +34,11 @@
  @media screen and (max-width:750px) {
     #subtitleBAcc{
         
-        position: absolute;
+        /* position: absolute;
         width: 255px;
         height: 55px;
         left: -880px;
-        top: 8290px;
+        top: 8290px; */
     
     }
  }  

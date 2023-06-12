@@ -13,20 +13,11 @@ justify-content: space-between;
         position: absolute;
         width: 608px;
         height: 630px;
-        left: 400px;
+        left: 350px;
         top: 479px;
  }
 
- .register{
-    /* Group 117 */
 
-
-        position: absolute;
-        width: 608px;
-        height: 630px;
-        left: 880px;
-        top: 479px;
- }
 
  .username{
     /* Group 112 */
@@ -47,3 +38,134 @@ justify-content: space-between;
     left: -176px;
     top: -400px;
  }
+
+.subR{
+    /* Remember me */
+
+
+            position: absolute;
+            width: 120px;
+            height: 24px;
+            left: -120px;
+             top: -290px;
+}
+.subP{
+    position: absolute;
+    width: 160px;
+    height: 24px;
+    left: 60px;
+    top: -180px;
+}
+
+.register{
+    position: absolute;
+    left: 1000px;
+    top: 470px;
+}
+
+.email{
+    /* Group 112 */
+
+
+        position: absolute;
+        width: 424px;
+        height: 121px;
+        left: -175px;
+        top: -500px;
+
+ }
+
+ .supRP{
+    /* Group 112 */
+
+
+        position: absolute;
+       
+        left: -175px;
+        top: -450px;
+        margin-top: 36px;
+
+ }
+
+
+ .supRPS{
+    position: absolute;
+    left: -175px;
+    top: -340px;
+
+ }
+
+
+
+ @media screen and (max-width:1280px) {
+ 
+.login{
+ 
+        position: absolute;
+        width: 608px;
+        height: 630px;
+        left: 200px;
+        top: 500px;
+        z-index: 1;
+ }
+
+
+    
+    .subR{
+                position: absolute;
+                width: 120px;
+                height: 24px;
+                left: -100px;
+                 top: -290px;
+                 z-index: 1;
+    }
+    .subP{
+        position: absolute;
+        width: 160px;
+        height: 24px;
+        left: 4rem;
+        top: -11rem;       
+    }
+    
+    
+     .supRP{
+    
+            position: absolute;
+            left: -175px;
+            top: -450px;
+            margin-top: 36px;
+    
+     }
+    
+    
+     .supRPS{
+        position: absolute;
+        left: -175px;
+        top: -340px;
+    
+     }
+
+     .register{
+        position: absolute;
+        left: 900px;
+        top: 500px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    
+     .register{
+        position: absolute;
+        left: 530px;
+        top: 500px;
+    }
+    .login{
+ 
+        position: absolute;
+        left: 150px;
+        top: 500px;
+        z-index: 1;
+ }
+
+
+}

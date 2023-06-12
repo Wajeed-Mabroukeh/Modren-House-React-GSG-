@@ -3,9 +3,9 @@ import TopContener from "./Components/TopContener/TopContener"
 import BottomContener from "./Components/BottomContener/BottomContener"
 
 
-function Contener() {
+const Contener = props => {
   return (
-    <div className='contener'>
+    <div className={props.namepage}>
       <TopContener/>
       <BottomContener/>
     </div>

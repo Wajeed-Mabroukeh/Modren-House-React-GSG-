@@ -2,10 +2,10 @@ import './Footer.css';
 import Contener from './Components/Contener/Contener';
 
 
-function Footer() {
+const  Footer= props => {
   return (
     <div className='footer'>
-      <Contener/>
+      <Contener namepage = {props.name}/>
     </div>
   );
 }
