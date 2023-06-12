@@ -1,0 +1,49 @@
+.bodyaccount{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+  
+    
+}
+
+.login{
+    /* Group 116 */
+
+
+        position: absolute;
+        width: 608px;
+        height: 630px;
+        left: 400px;
+        top: 479px;
+ }
+
+ .register{
+    /* Group 117 */
+
+
+        position: absolute;
+        width: 608px;
+        height: 630px;
+        left: 880px;
+        top: 479px;
+ }
+
+ .username{
+    /* Group 112 */
+
+
+        position: absolute;
+        width: 424px;
+        height: 121px;
+        left: -175px;
+        top: -500px;
+
+ }
+
+ .password{
+    position: absolute;
+    width: 423px;
+    height: 75px;
+    left: -176px;
+    top: -400px;
+ }

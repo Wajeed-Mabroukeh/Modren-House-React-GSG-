@@ -1,0 +1,42 @@
+#titleBAcc{
+  
+   /* Log In */
+
+
+            position: absolute;
+            width: 107px;
+            height: 54px;
+            
+
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 54px;
+            /* identical to box height */
+
+
+            color: #000000;
+}
+
+@media screen and (max-width:1280px) {
+    #titleBAcc{
+      width: 1640px;
+      height: 450px;
+      left: -670px;
+      top: 7000px;
+
+       
+    }
+ }  
+ @media screen and (max-width:750px) {
+    #titleBAcc{
+      position: absolute;
+      width: 400px;
+      height: 55px;
+      left: -940px;
+      top: 8200px;
+     
+
+    }
+ }  

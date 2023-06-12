@@ -26,10 +26,14 @@
         flex-direction: row;
         width: 430px;
         height: 24px;
-        left: 355px;
+        left: 555px;
         top: 38px;
     
     }
     
 }
 
+#link{
+    margin-top: -10px;
+    color: black;
+}
